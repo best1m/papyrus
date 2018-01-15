@@ -11,3 +11,8 @@
 database schema
 
 [ERD Link](https://www.erdcloud.com/d/B43AuFPuW4Lv3YYQ5)
+
+## Members
+
+[Hyeyoom](https://github.com/hyeyoom)  
+[Soohoin](https://github.com/soohoin)  
