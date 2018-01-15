@@ -10,4 +10,4 @@
 
 database schema
 
-![ERD Link](https://www.erdcloud.com/d/B43AuFPuW4Lv3YYQ5)
+[ERD Link](https://www.erdcloud.com/d/B43AuFPuW4Lv3YYQ5)
