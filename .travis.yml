@@ -4,3 +4,5 @@ script: mvn clean install test
 jdk:
   - oraclejdk8
   - oraclejdk9
+notifications:
+  slack: neouldevelopers:6EL9aDgvYywAMDbrXOmxFXID
