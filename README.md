@@ -14,5 +14,5 @@ database schema
 
 ## Members
 
-[Hyeyoom](https://github.com/hyeyoom)  
-[Soohoin](https://github.com/soohoin)  
+- [Hyeyoom](https://github.com/hyeyoom)
+- [Soohoin](https://github.com/soohoin)
