@@ -1,0 +1,4 @@
+# 1. spring boot settings
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
