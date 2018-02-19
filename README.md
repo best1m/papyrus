@@ -1,7 +1,7 @@
 # papyrus: blog for everyone
 
 [![Build Status](https://travis-ci.org/neouldevs/papyrus.svg?branch=master)](https://travis-ci.org/neouldevs/papyrus)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/d602c085821d5f9e390b/maintainability)](https://codeclimate.com/github/neouldevs/papyrus/maintainability)
 
 
 ## Document
@@ -16,3 +16,4 @@ database schema
 
 - [Hyeyoom](https://github.com/hyeyoom)
 - [Soohoin](https://github.com/soohoin)
+- [kth](https://github.com/best1m)
