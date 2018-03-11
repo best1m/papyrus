@@ -203,3 +203,4 @@ mvnw.cmd
 frontend/node
 frontend/node_modules
 frontend/built
+src/main/resources/public/static
