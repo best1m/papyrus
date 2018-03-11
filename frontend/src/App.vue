@@ -1,7 +1,24 @@
 <template>
   <div id="app">
-    
-    <header>
+
+<v-app>
+
+  <v-navigation-drawer app>
+      <div class="pp-side-menu">
+       <router-link to="/home">Home</router-link> 
+      </div>
+
+      <div class="pp-side-menu">
+       <router-link to="/page1">Page1</router-link> 
+      </div>
+
+      <div class="pp-side-menu">
+       <router-link to="/page2">Page2</router-link> 
+      </div>
+  </v-navigation-drawer>
+  
+  <v-toolbar app>
+     <header>
       <div class="pp-menu">
        <router-link to="/home">Home</router-link> 
       </div>
@@ -14,14 +31,21 @@
        <router-link to="/page2">Page2</router-link> 
       </div>
     </header>
-
-    <div class="pp-content-container">
+  </v-toolbar>
+  
+  <v-content>
+    <v-container fluid>
       <router-view></router-view>
-    </div>
+    </v-container>
+  </v-content>
 
-    <footer>
-      <div>footer</div>
-    </footer>
+  <v-footer app>
+    <div>footer</div>
+  </v-footer>
+
+</v-app>
+    
+
 
 
 
@@ -58,16 +82,19 @@ export default {
 #app {
 
 header {
-  background-color: rgb(216,216,216);
 
   .pp-menu {
     display: inline-block;
     font-size: 30px;
-    padding: 30px;
     
     
   }
 
+}
+
+.pp-side-menu {
+  font-size: 40px;
+  line-height: 5;
 }
 
 .pp-content-container {
@@ -77,7 +104,6 @@ header {
 footer {
   font-size: 20px;
   font-weight: bold;
-  height: 100px;
   background-color: cadetblue;
 
 }
