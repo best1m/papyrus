@@ -3,22 +3,9 @@
 
 <v-app>
 
-  <v-navigation-drawer app>
-      <div class="pp-side-menu">
-       <router-link to="/home">Home</router-link> 
-      </div>
-
-      <div class="pp-side-menu">
-       <router-link to="/page1">Page1</router-link> 
-      </div>
-
-      <div class="pp-side-menu">
-       <router-link to="/page2">Page2</router-link> 
-      </div>
-  </v-navigation-drawer>
-  
-  <v-toolbar app>
-     <header>
+<header>
+    <v-toolbar app>
+      <img>
       <div class="pp-menu">
        <router-link to="/home">Home</router-link> 
       </div>
@@ -30,8 +17,9 @@
       <div class="pp-menu">
        <router-link to="/page2">Page2</router-link> 
       </div>
-    </header>
   </v-toolbar>
+</header>
+
   
   <v-content>
     <v-container fluid>
@@ -40,7 +28,7 @@
   </v-content>
 
   <v-footer app>
-    <div>footer</div>
+    <div>Papyrus Version.0.1</div>
   </v-footer>
 
 </v-app>
