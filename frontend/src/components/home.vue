@@ -12,7 +12,6 @@
       <div v-for="data in results" v-if="keyword.length > 0">
         <img class="pp-image-box" :src="data.links[0].href">
       </div>
-
   </div>
 </template>
 
