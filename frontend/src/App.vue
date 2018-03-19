@@ -47,6 +47,7 @@ import Page2 from "./components/page2.vue";
 import VueRouter from "vue-router";
 
 const router = new VueRouter({
+  mode : 'history',
   routes: [
     { path: "/", component: Home },
     { path: "/home", component: Home },
