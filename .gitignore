@@ -200,6 +200,8 @@ mvnw.cmd
 
 ### frontend dependencies
 
+frontend/node
 frontend/node_modules
+frontend/built
 **/bundle.js
 **/bundle.js.map
